@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository version="1.0">
+    <name>Telegram Notifications for WBPP</name>
+    <version>1.0.0</version>
+    <author>Marco Manenti</author>
+    <description>Send WBPP notifications to Telegram</description>
+    <script>
+        <name>eventSendMessageToTelegram</name>
+        <path>eventSendMessageToTelegram.js</path>
+        <category>WBPP</category>
+        <description>Send WBPP notifications to Telegram</description>
+        <version>1.0.0</version>
+        <author>Marco Manenti</author>
+        <license>Custom</license>
+        <requirements>
+            <pixinsight>1.8.9</pixinsight>
+        </requirements>
+    </script>
+</repository> 
