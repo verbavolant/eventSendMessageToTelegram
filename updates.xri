@@ -15,9 +15,6 @@
             <version>1.0.0</version>
             <author>Marco Manenti</author>
             <license>Custom</license>
-            <requirements>
-                <pixinsight>1.8.9</pixinsight>
-            </requirements>
         </script>
     </repository>
 </updates> 
