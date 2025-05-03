@@ -3,11 +3,11 @@
     "version": "1.0.0",
     "author": "Marco Manenti",
     "description": "Send WBPP notifications to Telegram",
-    "repository": "https://github.com/verbavolant/eventSendMessageToTelegram/",
+    "repository": "https://raw.githubusercontent.com/verbavolant/eventSendMessageToTelegram/main/",
     "scripts": [
         {
             "name": "eventSendMessageToTelegram",
-            "path": "eventSendMessageToTelegram.js",
+            "path": "https://raw.githubusercontent.com/verbavolant/eventSendMessageToTelegram/main/eventSendMessageToTelegram.js",
             "category": "WBPP",
             "description": "Send WBPP notifications to Telegram",
             "version": "1.0.0",
