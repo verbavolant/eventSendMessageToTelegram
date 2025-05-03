@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<updates>
+<updates version="1.0">
     <repository>
         <name>Telegram Notifications for WBPP</name>
         <url>https://raw.githubusercontent.com/verbavolant/eventSendMessageToTelegram/main/</url>
