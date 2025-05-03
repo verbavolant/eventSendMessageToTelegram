@@ -5,12 +5,12 @@
     "description": "Send WBPP notifications to Telegram",
     "repository": {
         "type": "git",
-        "url": "https://github.com/verbavolant/eventSendMessageToTelegram.git"
+        "url": "https://raw.githubusercontent.com/verbavolant/eventSendMessageToTelegram/main"
     },
     "scripts": [
         {
             "name": "eventSendMessageToTelegram",
-            "path": "src/scripts/eventSendMessageToTelegram.js",
+            "path": "eventSendMessageToTelegram.js",
             "category": "WBPP",
             "description": "Send WBPP notifications to Telegram",
             "version": "1.0.0",
