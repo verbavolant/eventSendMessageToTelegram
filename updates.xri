@@ -2,7 +2,7 @@
 <updates version="1.0">
     <repository>
         <name>Telegram Notifications for WBPP</name>
-        <url>https://raw.githubusercontent.com/verbavolant/eventSendMessageToTelegram/main/</url>
+        <url>https://raw.githubusercontent.com/verbavolant/eventSendMessageToTelegram/main/updates.xri</url>
         <description>Send WBPP notifications to Telegram</description>
         <version>1.0.0</version>
         <author>Marco Manenti</author>
