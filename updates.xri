@@ -19,6 +19,7 @@
             <requirements>
                 <pixinsight>1.8.9</pixinsight>
             </requirements>
+            <file>eventSendMessageToTelegram.js</file>
         </script>
     </repository>
 </updates> 
