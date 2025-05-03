@@ -1,23 +1,100 @@
-# eventSendMessageToTelegram
-Pixinsight WBPP Event Script  - send WBPP working status to Telegram 
+# Telegram Notifications for WBPP
 
-Create a Telegram BOT
-Modify the .js script with your BOT TOKEN and CHAT ID
+A PixInsight script that sends real-time notifications to Telegram during WBPP (Weighted Batch Preprocessing) execution.
 
-In Pixinsight, WBPP, Pipeline, activate "Event Script" and add the JS script (with path):
+![PixInsight Logo](https://pixinsight.com/images/pixinsight-logo.png)
 
-![image](https://github.com/user-attachments/assets/a5705bf3-bb21-4b51-aabd-527dc47e0600)
+## Features
 
-How to create a BOT
+- Real-time notifications during WBPP execution
+- Pipeline start/end notifications
+- Process start/completion updates
+- Progress bar visualization
+- Error notifications
+- Support for long messages
+- Configurable logging system
 
-Search this user:
+## Requirements
 
-![image](https://github.com/user-attachments/assets/cee966ce-e35e-4d3d-a69d-9491a513d58c)
+- PixInsight 1.8.9 or later
+- A Telegram account
+- Internet connection
 
-Chat to him:
+## Installation
 
-![image](https://github.com/user-attachments/assets/3ee3e820-99ad-4034-9af6-f4127dcdf7fb)
+Detailed installation instructions are available in the [Installation Guide](docs/installation.md).
 
-![image](https://github.com/user-attachments/assets/2b875f37-47b7-4845-bbf5-1ebd931e00af)
+### Quick Start
 
-Get the strings (in the example 73xxxxxxx, and the string AAHxxxxxxx9Y) and fill the script.
+1. Download the script file `eventSendMessageToTelegram.js`
+2. Copy it to your PixInsight scripts directory
+3. Configure your Telegram bot token and chat ID
+4. Enable the script in WBPP's Pipeline settings
+
+## Configuration
+
+The script can be configured by editing the following parameters in the script file:
+
+```javascript
+const CONFIG = {
+    telegram: {
+        botToken: "<YOUR_BOT_TOKEN>",
+        chatId: "<YOUR_CHAT_ID>",
+        apiUrl: "https://api.telegram.org/bot",
+        maxMessageLength: 4096
+    },
+    logging: {
+        enabled: true,
+        level: "info" // debug, info, warn, error
+    }
+};
+```
+
+## Usage
+
+1. Open PixInsight
+2. Launch WBPP
+3. Go to the Pipeline tab
+4. Enable "Event Script"
+5. Select the script file
+6. Start processing
+
+The script will automatically send notifications for:
+- Pipeline start/end
+- Process start/completion
+- Progress updates
+- Error notifications
+
+## Support
+
+For support, please:
+1. Check the [Installation Guide](docs/installation.md)
+2. Visit the [PixInsight Forum](https://pixinsight.com/forum/)
+3. Contact the author
+
+## Contributing
+
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under a custom license:
+- Free for personal and non-commercial use
+- Commercial use requires written authorization from the author
+
+See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Marco Manenti - 2025
+
+## Acknowledgments
+
+- PixInsight Team for the amazing software
+- Telegram for their API
+- All contributors and users
