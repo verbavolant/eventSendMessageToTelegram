@@ -9,7 +9,7 @@
         <license>Custom</license>
         <script>
             <name>eventSendMessageToTelegram</name>
-            <path>eventSendMessageToTelegram.js</path>
+            <path>TelegramNotifications_20250503.zip</path>
             <category>WBPP</category>
             <description>Send WBPP notifications to Telegram</description>
             <version>1.0.0</version>
@@ -18,7 +18,6 @@
             <requirements>
                 <pixinsight>1.8.9</pixinsight>
             </requirements>
-            <file>TelegramNotifications_20250503.zip</file>
         </script>
     </repository>
 </updates> 
