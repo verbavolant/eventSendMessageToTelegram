@@ -1,24 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<updates version="1.0">
-    <repository>
-        <name>Telegram Notifications for WBPP</name>
-        <url>https://raw.githubusercontent.com/verbavolant/eventSendMessageToTelegram/main/</url>
-        <description>Send WBPP notifications to Telegram</description>
-        <version>1.0.0</version>
-        <author>Marco Manenti</author>
-        <license>Custom</license>
-        <script>
-            <name>eventSendMessageToTelegram</name>
-            <path>eventSendMessageToTelegram.js</path>
-            <category>WBPP</category>
-            <description>Send WBPP notifications to Telegram</description>
-            <version>1.0.0</version>
-            <author>Marco Manenti</author>
-            <license>Custom</license>
-            <icon>icon.png</icon>
-            <requirements>
-                <pixinsight>1.8.9</pixinsight>
-            </requirements>
-        </script>
-    </repository>
-</updates> 
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>
+      Telegram Notifications for WBPP
+    </p>
+   </description>
+   <platform os="all" arch="noarch" version="1.8.9-2:1.9.99">
+      <package fileName="TelegramNotifications_20250503.zip" sha1="045cb1218a5f9f5f6bafff250d16fe32c7d7b047" type="script" releaseDate="20250503">
+         <title>
+        Telegram Notifications for WBPP
+      </title>
+         <description>
+            <p>
+          - Send WBPP notifications to Telegram
+          - Configure Telegram bot token and chat ID
+          - Customize notification messages
+        </p>
+         </description>
+      </package>
+   </platform>
+</xri> 
