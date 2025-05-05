@@ -6,7 +6,7 @@
     </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9-2:1.9.99">
-      <package fileName="TelegramNotifications_20250503.zip" sha1="045cb1218a5f9f5f6bafff250d16fe32c7d7b047" type="script" releaseDate="20250503">
+      <package fileName="TelegramNotifications_20250503.zip" sha1="18b6999eb664e6a5442daf462fe6e182e5067c16" type="script" releaseDate="20250503">
          <title>
         Telegram Notifications for WBPP
       </title>
